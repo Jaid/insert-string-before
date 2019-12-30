@@ -7,10 +7,10 @@ import {isEmpty} from "has-content"
  * @param {string} haystack
  * @param {string} needle
  * @param {string} insertedString
- * @returns {number} Seconds passed since Unix epoch (01 January 1970)
+ * @returns {string} New string
  * @example
  * import insertStringBefore from "insert-string-before"
- * const result = insertStringBefore("I am Sanic!", "Sanic", " the Hedgehog")
+ * const result = insertStringBefore("I am the Hedgehog!", "the", "Sanic ")
  * result === "I am Sanic the Hedgehog!"
  */
 export default (haystack, needle, insertedString) => {
@@ -22,6 +22,5 @@ export default (haystack, needle, insertedString) => {
   if (index === -1) {
     return haystack
   }
-  const endIndex = index + needleString.length
-  return haystack.slice(0, endIndex) + insertedString + haystack.slice(endIndex)
+  return haystack.slice(0, index) + insertedString + haystack.slice(index)
 }
