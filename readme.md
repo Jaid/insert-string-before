@@ -1,11 +1,25 @@
 # insert-string-before
 
 
-Inserts a string before a needle's start in a haystack.
+<a href="https://raw.githubusercontent.com/Jaid/insert-string-before/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/insert-string-before?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/insert-string-before/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Finsert-string-before%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/insert-string-before/commits"><img src="https://img.shields.io/github/commits-since/Jaid/insert-string-before/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/insert-string-before/commits"><img src="https://img.shields.io/github/last-commit/Jaid/insert-string-before?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/insert-string-before/issues"><img src="https://img.shields.io/github/issues/Jaid/insert-string-before?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/insert-string-before"><img src="https://img.shields.io/npm/v/insert-string-before?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/insert-string-before/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-before?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-before"><img src="https://img.shields.io/npm/dm/insert-string-before?style=flat-square&logo=npm" alt="Downloads"/></a>
 
-<a href="https://raw.githubusercontent.com/Jaid/insert-string-before/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/insert-string-before?style=flat-square&color=success" alt="License"/></a>  
-<a href="https://github.com/Jaid/insert-string-before/commits"><img src="https://img.shields.io/github/commits-since/Jaid/insert-string-before/v1.0.0?style=flat-square&logo=github&color=success" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/insert-string-before/commits"><img src="https://img.shields.io/github/last-commit/Jaid/insert-string-before?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/insert-string-before/issues"><img src="https://img.shields.io/github/issues/Jaid/insert-string-before?style=flat-square&logo=github&color=red" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/insert-string-before"><img src="https://img.shields.io/npm/v/insert-string-before?style=flat-square&logo=npm&label=latest%20version&color=success" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/insert-string-before/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-before?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-before"><img src="https://img.shields.io/npm/dm/insert-string-before?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
+**Inserts a string before a needle's start in a haystack.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
 <a href="https://npmjs.com/package/insert-string-before"><img src="https://img.shields.io/badge/npm-insert--string--before-C23039?style=flat-square&logo=npm" alt="insert-string-before on npm"/></a>
@@ -41,15 +55,36 @@ insert-string-before is now stored in the global variable `insertStringBefore`. 
 typeof insertStringBefore.default
 ```
 
-<a name="module_insert-string-before"></a>
 
-## Reference
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/insert-string-before.git
+cd insert-string-before
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
+```
+
 
 ## License
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
