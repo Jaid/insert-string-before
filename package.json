@@ -32,5 +32,9 @@
   },
   "name": "insert-string-before",
   "description": "Inserts a string before a needle's start in a haystack.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/insert-string-before"
+  }
 }
