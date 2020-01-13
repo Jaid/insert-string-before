@@ -31,5 +31,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "insert-string-before",
-  "description": "Inserts a string before a needle's start in a haystack."
+  "description": "Inserts a string before a needle's start in a haystack.",
+  "funding": "https://github.com/sponsors/jaid"
 }
