@@ -37,5 +37,15 @@
     "url": "https://github.com/jaid/insert-string-before"
   },
   "homepage": "https://github.com/Jaid/insert-string-before",
-  "keywords": []
+  "keywords": [
+    "insert",
+    "insert-string",
+    "insert-string-before",
+    "lib",
+    "library",
+    "string",
+    "strings",
+    "util",
+    "utility"
+  ]
 }
